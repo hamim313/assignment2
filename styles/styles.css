@@ -44,6 +44,7 @@ a{
 .banner{
     width: 1140px;
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
     margin-top: 120px;
     margin-left: auto;
@@ -100,9 +101,79 @@ a{
     background-color: #E95A08;
     color: white;
     padding: 25px 50px;
+    font-weight: 700;
 }
 
 
 @media (max-width:412px) {
-    
+    nav{
+        width: 361px;
+        height: 38px;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+    .nav-items>.home, .nav-items>.aboutus, .nav-items>.shop{
+        display: none;
+    }
+    .nav-items{
+        width: 113px;
+        height: 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .cart-div{
+        width: 113px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .banner{
+        display: block;
+        width: 412px;
+    }
+    .banner-img>img{
+        width: 100%;
+    }
+    .banner-text{
+        width: 361px;
+        margin: auto;
+    }
+    .text-title{
+        font-size: 1.5rem;
+    }
+    .main-text{
+        font-size: 0.9rem;
+    }
+    .display-section{
+        width: 100%;
+        margin: 0 17px;
+    }
+    .heading{
+        font-size: 1.5rem;
+    }
+    .heading-text{
+        width: 361px;
+        font-size: 0.9rem;
+    }
+    .card{
+        width: 361px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 28px;
+        gap: 20px;
+    }
+    .cards{
+        width: 171px;
+    }
+    .cards>img{
+        width: 100%;
+    }
+    .btn-primary{
+        width: 171px;
+        padding: 10px 20px;
+        font-weight: 600;
+    }
 }
