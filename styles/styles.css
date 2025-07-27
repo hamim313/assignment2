@@ -104,6 +104,88 @@ a{
     font-weight: 700;
 }
 
+.lover-section{
+    width: 1140px;
+    margin-top: 210px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.lover-img{
+    width: 540px;
+    height: 597px;
+}
+.trusted-img{
+    width: 286px;
+    height: 286px;
+    position: absolute;
+    transform: translate(140%, -50%);
+}
+
+.lover-text>ul>h1{
+    font-size: 3.1rem;
+    font-weight: 700;
+}
+
+.lover-text>ul>li{
+    margin-left: 30px;
+    padding-bottom: 20px;
+}
+
+.lover-text>ul>li{
+    font-size: 1.5rem;
+}
+
+.latest-deal{
+    width: 1140px;
+    margin-top: 134px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.deal-text>h1{
+    font-size: 3.1rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.deal-text>p{
+    width: 888px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.plant-img{
+    width: 1140px;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 28px;
+}
+
+.small-img{
+    display: block;
+}
+
+.small-deal-img-one, .small-deal-img-two{
+    border-radius: 14px;
+}
+
+.small-deal-img-one{
+    margin-bottom: 20px;
+}
+
+.big-img>img{
+    border-radius: 22px;
+}
 
 @media (max-width:412px) {
     nav{
