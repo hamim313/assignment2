@@ -258,4 +258,50 @@ a{
         padding: 10px 20px;
         font-weight: 600;
     }
+    .lover-section{
+        display: block;
+        width: 361px;
+        margin-top: 41.5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .lover-img>.trusted-img{
+        display: none;
+    }
+    .lover-img-real{
+        width: 361px;
+    }
+    .lover-text{
+        margin-top: -180px;
+        margin-left: -30px;
+        margin-right: auto;
+    }
+    .lover-text>ul>h1{
+        font-size: 1.5rem;
+    }
+    .lover-text>ul>li{
+        font-size: 0.9rem;
+    }
+    .latest-deal{
+        width: 361px;
+        margin-top: 0px;
+    }
+    .deal-text>h1{
+        font-size: 1.5rem;
+    }
+    .deal-text>p{
+        width: 361px;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+    .plant-img{
+        width: 361px;
+        display: block;
+        margin-top: 0px;
+    }
+    .big-img>img{
+        width: 361px;
+        margin-top: 20px;
+        border-radius: 14px;
+    }
 }
