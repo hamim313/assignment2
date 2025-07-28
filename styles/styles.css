@@ -187,6 +187,35 @@ a{
     border-radius: 22px;
 }
 
+.footer-img{
+    height: 533px;
+    background-image: url('../assets/news-letter-bg.png');
+}
+
+.footer-img>h1{
+    padding-top: 200px;
+    text-align: center;
+    font-size: 3.1rem;
+    font-weight: 700;
+    color: white;
+}
+
+.input-section{
+    display: flex;
+    margin-left: 305px;
+    height: 50px;
+}
+
+.input-section>input{
+    width: 644px;
+    padding: 10px;
+}
+
+.input-section>button{
+    width: 186px;
+    padding: 19px 53.5px;
+}
+
 @media (max-width:412px) {
     nav{
         width: 361px;
@@ -217,7 +246,7 @@ a{
         width: 412px;
     }
     .banner-img>img{
-        width: 100%;
+        width: 412px;
     }
     .banner-text{
         width: 361px;
@@ -230,7 +259,7 @@ a{
         font-size: 0.9rem;
     }
     .display-section{
-        width: 100%;
+        width: 412px;
         margin: 0 17px;
     }
     .heading{
